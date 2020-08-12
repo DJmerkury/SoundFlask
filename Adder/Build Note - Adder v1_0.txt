@@ -1,0 +1,23 @@
+SoundFlask
+ADDER
+Version 1.0
+August 11, 2020
+
+Important notes about this version.
+- Unfortunately, IC5 (10V shunt) did not work as expected. It was intended that IC5 and resistor R11 (originally 10k) would produce an exact positive 10V signal for the OFFSET control to use. The workaround was to not populate IC5 and change R11 to a 1k resistor. This resulted in nearly 10V of offset.
+
+Order of component population.
+- Protection Diodes
+- TL072 Opamps
+- Resistors
+- Capacitors
+- Electrolytic Capacitors
+- Power Header
+- Be sure to break off locating tab on Pot if necessary
+- Place Pot and Jacks into holes (DO NOT SOLDER YET)
+- Attach front Panel to Pot and Jacks
+- Hand tighten Nuts (make sure everything is aligned good)
+- Solder Pot and Jacks
+- Tighten Nuts Completely
+- Attach Knob
+
