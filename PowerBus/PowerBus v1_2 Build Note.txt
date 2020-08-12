@@ -1,0 +1,17 @@
+SoundFlask
+PowerBus
+Version 1_2
+August 11, 2020
+
+Important notes about this version.
+- LEDs can be made less bright by increasing resistor values.
+- The Faston Terminals do not need to be populated if you do not intend to use them.
+- PowerBus can be used with Faston Terminals or by simply connecting a standard 16 pin power cable from a rack mounted power supply such as 4ms Row Power or Tiptop uZeus.
+- Terminals are located at both ends of PowerBus board to assist with chaining PowerBus boards.
+- PowerBus was originally created to go with a linear power supply that uses a transformer to step down mains voltage. Please inquire about this if you are interested.
+
+Order of component population.
+- Resistors
+- LEDs
+- Headers
+- Faston Terminals
