@@ -1,0 +1,38 @@
+SoundFlask
+RING
+Version 1.0
+August 11, 2020
+
+Important notes about this version.
+- Unfortunately, the direction of the Gain Pots is reversed. Fortunately, the fix is easy. Build the module and then see the note at the very bottom.
+
+Order of component population.
+- Protection Diodes
+- TL074 Opamps
+- Resistors
+- Capacitors
+- Ring Diodes
+- Electrolytic Capacitors
+- Power Header
+- Be sure to break off locating tab on Pot if necessary
+- Place Pot and Jacks into holes (DO NOT SOLDER YET)
+- Attach front Panel to Pot and Jacks
+- Hand tighten Nuts (make sure everything is aligned good)
+- Solder Pot and Jacks
+- Tighten Nuts Completely
+- Attach Knob (if needed)
+
+The bodge fix for backward Gain Pots. You will need an Xacto knife with a new blade for this part.
+- First you must cut 3 traces. The cuts must be made on the side with all of the components.
+- Cut #1 is right above the middle pin on the top pot.
+- Cut #2 is between the middle and right pins on the top pot.
+- Cut #3 is between the middle and right pins on the bottom pot.
+- Use a multimeter in continuity mode to confirm that pin 1 from IC1 is not connected to the middle pin of the top pot.
+- Also check that there is no continuity between the middle and right pins of both pots.
+- Now for the "fun" part. You need to scrape away the soldermask to expose a copper trace.
+- The trace we want to expose is directly above where you made the first cut.
+- Gently scrape the board with the edge of your blade and expose about 3 or 4 mm of trace about 3 or 4 mm above the middle pin on the top pot.
+- Take a cut off resistor leg and solder one end to the exposed trace and the other end to the right pin of the top pot.
+- Cut off any excess.
+- Solder two more legs between the middle pin and left pin of both pots.
+- Congratulations! You have bodged the board.
