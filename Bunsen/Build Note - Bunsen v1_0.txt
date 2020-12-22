@@ -1,0 +1,32 @@
+SoundFlask
+BUNSEN
+Version 1.0
+December 22, 2020
+
+Important notes about this version.
+- Unfortunately, I made a mistake with the 2V voltage reference. The shunt outputs slightly higher than 2V, so a voltage divider must be formed to reduce the voltage very slightly. Fortunately, the fix is easy. It is easiest to fix the problem prior to starting the build.
+
+The bodge fix for correcting the voltage. Use an Xacto knife with a new blade for this part.
+- First you must cut 1 traces. The cut must be made on the side with all of the components.
+- The cut is to be made between C11 and IC1. It does not matter where you cut it, as long as the connection is broken. BE CAREFUL not to short the trace to the ground plane surrounding the trace. See Photo!
+- Use a multimeter in continuity mode to confirm that IC1 is not connected to C11. Also, check that the positive pad of C11 is not connected to ground and that R1 is not connected to ground.
+- Go ahead and solder in R1 first.
+- C11 is no longer used as a capacitor. Solder the 39k resistor in this spot. See Photo!
+- The 1.2k resistor goes between R1 and C11. See Photo!
+- Congratulations! You have bodged the board.
+
+Order of component population.
+- Protection Diodes
+- Voltage Reference
+- Opamps
+- Resistors
+- Capacitors
+- Electrolytic Capacitors
+- Power Header
+- DO NOT SOLDER UNTIL FRONT PANEL IS ON - 5 Position Switches (Note that it is not necessary to remove the locating tabs).
+- Place Jacks into holes (DO NOT SOLDER YET)
+- Attach front Panel to Pot and Jacks
+- Hand tighten Nuts (make sure everything is aligned good)
+- Solder Pot and Jacks
+- Tighten Nuts Completely
+- Attach Knobs
