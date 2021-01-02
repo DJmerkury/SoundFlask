@@ -1,7 +1,9 @@
 SoundFlask
 BUNSEN
 Version 1.0
-December 22, 2020
+January 2, 2021
+
+If you would like more precision, use 0.1% tolerance resistors for all but the 51R. I have built four modules, all with 1% tolerance resistors. The best performing modules have about 10 cents of error on the pitch. The worst performing modules have about 20 cents of error on the pitch.
 
 Important notes about this version.
 - Unfortunately, I made a mistake with the 2V voltage reference. The shunt outputs slightly higher than 2V, so a voltage divider must be formed to reduce the voltage very slightly. Fortunately, the fix is easy. It is easiest to fix the problem prior to starting the build.
@@ -11,8 +13,8 @@ The bodge fix for correcting the voltage. Use an Xacto knife with a new blade fo
 - The cut is to be made between C11 and IC1. It does not matter where you cut it, as long as the connection is broken. BE CAREFUL not to short the trace to the ground plane surrounding the trace. See Photo!
 - Use a multimeter in continuity mode to confirm that IC1 is not connected to C11. Also, check that the positive pad of C11 is not connected to ground and that R1 is not connected to ground.
 - Go ahead and solder in R1 first.
-- C11 is no longer used as a capacitor. Solder the 39k resistor in this spot. See Photo!
-- The 1.2k resistor goes between R1 and C11. See Photo!
+- C11 is no longer used as a capacitor. Solder the 39k resistor in this spot. (In the photo, the capacitor is over the resistor.) You may still use the 10u capacitor, but I don't think it is necessary. See Photo!
+- The 1.2k resistor goes between R1 and C11. This can be done like in the photo or you can run a wire from IC1 to the resistor soldered onto C11 pad. See Photo!
 - Congratulations! You have bodged the board.
 
 Order of component population.
