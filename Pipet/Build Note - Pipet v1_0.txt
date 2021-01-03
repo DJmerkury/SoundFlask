@@ -1,0 +1,18 @@
+SoundFlask
+PIPET
+Version 1.0
+January 3, 2021
+
+Important notes about this version.
+- One of the reverse power protection diodes was misplaced underneath where 2 of the jacks go. Follow these steps to resolve the issue.
+- Add all the components to the board except the LEDs and jacks.
+- Do not solder any jacks or LEDs until the end.
+- Place all of the jacks onto the board (the two over the diode will be raised up about 1.5mm.
+- Note that the jacks share the same hole for the ground pin.
+- Place the LEDs into their respective places.
+- Place the front panel over all of the jacks and tighten the nuts all the way.
+- At this point some jacks will be flush with the board and some will be pulled away from the board.
+- Use some tweezers or flush cut snips to leverage the jacks off the board slightly so that all look evenly spaced.
+- No jacks should be touching the board at this point.
+- Flip the module over and drop the LEDs into their holes.
+- Solder all jacks and LEDs.
