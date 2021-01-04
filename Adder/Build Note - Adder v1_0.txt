@@ -4,7 +4,10 @@ Version 1.0
 August 11, 2020
 
 Important notes about this version.
-- Unfortunately, IC5 (10V shunt) did not work as expected. It was intended that IC5 and resistor R11 (originally 10k) would produce an exact positive 10V signal for the OFFSET control to use. The workaround was to not populate IC5 and change R11 to a 1k resistor. This resulted in nearly 10V of offset.
+- Unfortunately, IC5 (10V shunt) did not work as expected. It was intended that
+IC5 and resistor R11 (originally 10k) would produce an exact positive 10V signal
+for the OFFSET control to use. The workaround was to not populate IC5 and change
+R11 to a 1k resistor. This resulted in nearly 10V of offset.
 
 Order of component population.
 - Protection Diodes
