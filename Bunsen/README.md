@@ -1,3 +1,3 @@
 # Bunsen
 
-![Bunsen](bunsen.JPG)
+![Bunsen](Bunsen.JPG)
